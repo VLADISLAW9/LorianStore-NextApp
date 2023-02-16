@@ -1,0 +1,28 @@
+.cart {
+	@apply mb-10;
+	.item {
+		@apply flex items-center gap-4 border-b border-b-dark-gray/30 pb-6 pt-4;
+
+		.name {
+			@apply w-36 truncate font-semibold tracking-widest;
+		}
+
+		.price {
+			@apply mt-1 text-sm text-white;
+		}
+
+		.variation {
+			@apply text-xs text-white opacity-70;
+		}
+	}
+}
+
+.footer {
+	> div:first-child {
+		@apply text-sm text-white;
+	}
+
+	> div:last-child {
+		@apply text-xl font-semibold;
+	}
+}
